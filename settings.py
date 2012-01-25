@@ -7,7 +7,7 @@ if 'VCAP_SERVICES' in os.environ:
         'django_stackato',
         )
     
-    INSTALLED_APPS = EXTRA_INSTALLED_APPS + INSTALLED_APPS
+#    INSTALLED_APPS = EXTRA_INSTALLED_APPS + INSTALLED_APPS
     
     import json
     vcap_services = json.loads(os.environ['VCAP_SERVICES'])
