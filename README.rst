@@ -8,7 +8,7 @@ Get the MediaThread code and submodules::
 	$ git submodule init
 	$ git submodule update
 
-Add to your mediathread/deploy_specific/settings.py::
+Add to your mediathread/deploy_specific/settings.py, or symlink settings.py into this directory::
 
     EXTRA_INSTALLED_APPS = (
             'django_stackato',
