@@ -1,0 +1,10 @@
+# if using MySQL
+MySQL-python
+# if using PostgreSQL
+psycopg2
+# if using Redis
+django-redis-cache
+# for database schema migrations
+South
+# for createsuperuser and changepassword2 commands
+django-stackato

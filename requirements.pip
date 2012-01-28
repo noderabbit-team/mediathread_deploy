@@ -1,3 +1,6 @@
+# requirements for appsembler
+-r appsembler.txt
+
 #-r libs.txt
 app/mediathread/requirements/src/Django-1.2.5.tar.gz
 app/mediathread/requirements/src/resolver-0.2.1.tar.gz
@@ -24,12 +27,6 @@ app/mediathread/requirements/src/uuid-1.30.tar.gz
 # during bootstrap
 app/mediathread/requirements/src/psycopg2-2.4-no-mx.tar.gz
 #psycopg2
-
-# ===============================
-# STACKATO
-# ===============================
-MySQL-python
-django-stackato
 
 #for djangosherd xmeml final cut pro support
 app/mediathread/requirements/src/xmeml-0.9.tar.gz
