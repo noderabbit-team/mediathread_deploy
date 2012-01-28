@@ -2,7 +2,9 @@
 
 import os
 
-if 'VCAP_SERVICES' in os.environ:
+STACKATO = 'VCAP_SERVICES' in os.environ
+
+if STACKATO:
     EXTRA_INSTALLED_APPS = (
         'django_stackato',
         )
